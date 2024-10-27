@@ -26,6 +26,6 @@
 
 # Where am I deployed?
 
-<enter your URL here>
+https://cpsc-490-project-git-main-horis-projects-d71cbf0c.vercel.app/
 
 
