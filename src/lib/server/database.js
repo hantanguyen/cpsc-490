@@ -1,3 +1,4 @@
-import * as env from '$env/dynamic/private';
+import postgres from 'postgres';
+const sql = postgres(DATABASE_URL); // Initialize PostgreSQL connection using DATABASE_URL
 
-const DATABASE_URL = env.DATABASE_URL; // My variable name here was DATABASE_URL not PGCONNECT
+export default sql;
