@@ -1,13 +1,8 @@
-
-import postgres from 'postgres'
-
-// see env variables in .env
-// import {PGCONNECT} from '$env/static/private';
+import postgres from 'postgres';
 import dotenv from 'dotenv';
-dotenv.config();
 
-const sql = postgres(process.env.PGCONNECT, {});
+dotenv.config(); // Load the environment variables
 
-//const sql = postgres(PGCONNECT, {} )
+const sql = postgres(process.env.PGCONNECT, {}); // Use the environment variable
 
 export default sql;
