@@ -4,8 +4,8 @@
 
 <div class="row">
 	<div class="id">{container.containernumber}</div>
-	<div class="shipname">{container.nameOfship}</div>
-	<div class="date">{container.dateContainershipped}</div>
+	<div class="shipname">{container.nameofship}</div>
+	<div class="date">{container.datecontainershipped}</div>
 	<div class="size">{container.containersize}</div>
 </div>
 
